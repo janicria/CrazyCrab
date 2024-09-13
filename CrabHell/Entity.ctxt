@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Entity
+comment0.text=\n\ Contains\ some\ methods\ to\ be\ shared\ between\ \n\ classes\ Crab\ and\ Lobster\n\ (also\ is\ now\ called\ 'Entity'\ instead\ of\ 'Animal'\n\ because\ worms\ are\ animals\ and\ it\ doesn't\ make\ sense\n\ for\ them\ to\ not\ be\ a\ class\ named\ 'Animal')\n
+comment1.params=
+comment1.target=void\ warp()
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment3.params=clss
+comment3.target=boolean\ attemptToEat(java.lang.Class)
+numComments=4
