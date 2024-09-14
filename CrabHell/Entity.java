@@ -1,8 +1,5 @@
 import greenfoot.*;
 
-import java.util.List;
-import java.util.ArrayList;
-
 /**
  * Contains some methods to be shared between 
  * classes Crab and Lobster

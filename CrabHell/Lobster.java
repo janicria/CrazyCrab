@@ -30,12 +30,12 @@ public class Lobster extends Entity
     // Makes the lobster eat the crab then end the game if it touches it
     public void searchForCrabs()
     {
-        // Buffer for crab
+        // Prevents lobster from eating a crab with a shield
         if (getWorldOfType(Manager.class).crabState != "shield"){
             if ( attemptToEat(Crab.class))
             {
                 Greenfoot.playSound("au.wav");
-                Greenfoot.stop();
+                Greenfoot.delay(120);
             }
         }
     }

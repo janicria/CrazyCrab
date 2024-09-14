@@ -3,7 +3,7 @@ import greenfoot.*;
 public class Crab extends Entity
 {
     public int animFrame = 0;
-    
+
     public void act()
     {
         checkForInput();
@@ -50,9 +50,13 @@ public class Crab extends Entity
     }
 
     // Updates the crab's animations 
-    private void updateAnimations(int rotation)
+    public void updateAnimations(int rotation)
     { 
-        setRotation(rotation);
+        // So that Manager can remove the shield
+        // if the crab isn't calling this method
+        if (rotation != -1){
+            setRotation(rotation);
+        }
         // Prevents the animation from spamming every frame
         if ((getWorldOfType(Manager.class).frame) % 3 == 0)
         {

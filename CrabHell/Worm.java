@@ -1,4 +1,4 @@
-import greenfoot.*;
+import greenfoot.Actor;
 
 public class Worm extends Actor
 {
