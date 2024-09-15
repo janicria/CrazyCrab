@@ -7,10 +7,14 @@ public class Manager extends World
     public int score = 0;
     public String crabState = "shield";
     private Crab crab = new Crab();
-    
+
     public Manager() 
     {
         super(560, 560, 1);
+        addObject(new Tooltip("intro", -1), getWidth()/2, getHeight()/2);
+    }
+
+    public void startGame(){
         addObject(crab, 150, 420);
         addObject(new Score(), 60, 60);
         for (int i = 0; i < 3; i++){
@@ -33,7 +37,12 @@ public class Manager extends World
             crabState = "regular";
             crab.updateAnimations(-1);
         }
-        
+
         frame++;
+    }
+
+    public void endGame(){
+        Greenfoot.playSound("youdiedlmao.mp3");
+        addObject(new Tooltip("defeat", score), getWidth()/2, getHeight()/2);
     }
 }

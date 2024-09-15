@@ -44,7 +44,7 @@ public class Crab extends Entity
         if ( attemptToEat(Worm.class) )
         {
             getWorldOfType(Manager.class).score++;
-            Greenfoot.playSound("slurp.wav");
+            Greenfoot.playSound("nom.mp3");
             getWorld().addObject( new Worm(), Greenfoot.getRandomNumber(500)+20, Greenfoot.getRandomNumber(500)+20);
         }
     }

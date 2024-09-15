@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Entity
-comment0.text=\n\ Contains\ some\ methods\ to\ be\ shared\ between\ \n\ classes\ Crab\ and\ Lobster\n\ (also\ is\ now\ called\ 'Entity'\ instead\ of\ 'Animal'\n\ because\ worms\ are\ animals\ and\ it\ doesn't\ make\ sense\n\ for\ them\ to\ not\ be\ a\ class\ named\ 'Animal')\n
+comment0.text=\r\n\ Contains\ some\ methods\ to\ be\ shared\ between\ \r\n\ classes\ Crab\ and\ Lobster\r\n\ (also\ is\ now\ called\ 'Entity'\ instead\ of\ 'Animal'\r\n\ because\ worms\ are\ animals\ and\ it\ doesn't\ make\ sense\r\n\ for\ them\ to\ not\ be\ a\ class\ named\ 'Animal')\r\n
 comment1.params=
 comment1.target=void\ warp()
 comment2.params=

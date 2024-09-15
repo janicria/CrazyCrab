@@ -3,7 +3,7 @@ I wanted to do something extra in my class at school, so I decided to create two
 
 ### Crab Hell
 
-A bullet hell game where you have to eat worms and avoid lobsters
+A bullet hell game where you have to eat worms and avoid lobsters which  get faster and continuously spawn over time
 
 ### Crazy space
 

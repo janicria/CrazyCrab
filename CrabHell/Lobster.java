@@ -34,8 +34,7 @@ public class Lobster extends Entity
         if (getWorldOfType(Manager.class).crabState != "shield"){
             if ( attemptToEat(Crab.class))
             {
-                Greenfoot.playSound("au.wav");
-                Greenfoot.delay(120);
+                getWorldOfType(Manager.class).endGame();
             }
         }
     }
