@@ -13,7 +13,8 @@ public class Manager extends World
         super(560, 560, 1);
         addObject(new Tooltip("intro", -1), getWidth()/2, getHeight()/2);
     }
-
+    
+    // Called by Tooltip after enter is pressed
     public void startGame(){
         addObject(crab, 150, 420);
         addObject(new Score(), 60, 60);
